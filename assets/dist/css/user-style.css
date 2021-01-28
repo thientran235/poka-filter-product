@@ -1,0 +1,50 @@
+.widget.poka_filter_product, .widget.widget_price_filter {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px #00000017;
+}
+
+.widget.poka_filter_product ul {
+}
+
+.widget.poka_filter_product ul>li {
+    -js-display: flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+
+.widget.poka_filter_product ul>li>a {
+    -js-display: flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+
+.widget.poka_filter_product ul>li>a svg {
+    width: 19px;
+    height: 19px;
+    float: left;
+    margin-right: 10px;
+}
+
+.widget.poka_filter_product ul>li>a span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    display: block;
+}
+
+.widget.poka_filter_product ul>li small {
+    text-align: center;
+    line-height: 20px;
+    background: #F44336;
+    color: #fff;
+    opacity: 1;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
